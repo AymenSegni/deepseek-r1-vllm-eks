@@ -40,6 +40,8 @@ Before proceeding, ensure you have the following:
 9. **Costs**: ~ 34–50 cents per hour: charges for the NAT gateway, EKS, EC2, and GPU-equipped nodes.
 
 
+> If you’re using this demo, please ★ Star this repository to show your interest!
+
 
 ## Project Structure
 
@@ -338,3 +340,9 @@ Nativigate to the `deepseek-vllm/deploy` then execute:
 terraform destroy
 ```
 Once it's done, repeat the same with the `eks/deploy/clusters/dev`
+
+
+## Conclusion
+
+By following this guide, you can successfully deploy and manage the DeepSeek R1 LLM on AWS EKS, ensuring efficient performance and scalability. 
+With Terraform handling infrastructure provisioning, Helm managing Kubernetes resources, and vLLM optimizing model serving, this deployment strategy provides a robust foundation for hosting large language models in production environments. Future enhancements may include integrating auto-scaling strategies, optimizing GPU utilization, and incorporating additional security best practices to improve the resilience and efficiency of the deployment.
