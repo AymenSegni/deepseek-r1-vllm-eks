@@ -1,0 +1,20 @@
+aws:
+  region: "us-west-1"
+eks:
+  name: "ai-ml-llm"
+model_size: "7b"
+resources:
+  limits_cpu: 4
+  requests_cpu: 2
+  limits_memory: "16Gi"
+  requests_memory: "8Gi"
+  limits_gpu: 1
+  requests_gpu: 1
+volumes:
+  size: "4Gi"
+# node:
+#   instance_type: "gdn4.xlarge"
+default_tags:
+  aws_account_id: "YOURACCOUNTID"
+  aws_account_name: "YOURACCOUNTNAME"
+  project: "DeepSeek R1"
