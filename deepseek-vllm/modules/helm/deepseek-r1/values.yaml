@@ -1,0 +1,14 @@
+# -------------------------
+# Default Values
+# -------------------------
+# Defines default configuration values for the Helm chart.
+# Users can override these values when installing the chart.
+# -------------------------
+modelSize: '${modelSize}'  # Model size (7B or 32B)
+memoryLimit: '${memoryLimit}' # "16Gi"  # Maximum memory allocation for the container
+memoryRequest: '${memoryRequest}' #"8Gi"  # Minimum memory allocation guaranteed for the container
+cpuLimit: ${cpuLimit} # 4  # Maximum CPU allocation for the container
+cpuRequest: ${cpuRequest} #2  # Minimum CPU allocation guaranteed for the container
+gpuRequest: ${gpuRequest} # 1  # Minimum GPU allocation requested for the container
+gpuLimit: ${gpuLimit} # 1  # Maximum GPU allocation for the container
+volumeSize: '${volumeSize}' # "4Gi"  # Size of the memory-backed volume for caching

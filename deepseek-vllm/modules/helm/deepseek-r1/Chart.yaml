@@ -1,0 +1,8 @@
+apiVersion: v2
+name: deepseek-r1
+version: 0.1.0
+description: Helm chart for deploying DeepSeek R1 models (7B and 32B)
+type: application
+maintainers:
+  - email: work.aymen.segni@gmail.com
+    name: Aymen Segni

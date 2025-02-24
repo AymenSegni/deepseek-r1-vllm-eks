@@ -1,0 +1,11 @@
+---
+aws:
+  account_id: "YOURACCOUNTID" # set your aws account ID
+  region: us-west-1
+eks:
+  name: "ai-ml-llm"
+  team: "mlops"
+default_tags: 
+  aws_account_id: "YOURACCOUNTID"
+  aws_account_name: "YOURACCOUNTNAME"
+  project: "DeepSeek R1"
